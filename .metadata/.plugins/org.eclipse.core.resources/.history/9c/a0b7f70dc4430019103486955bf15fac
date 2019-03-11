@@ -1,0 +1,11 @@
+package com.assignment1.springdemo;
+
+public class CricketCoach implements Coach{
+	
+		@Override 
+		public String getDailyCicketWorkout()
+		{
+			return "Spend thirty minutes on balling practice.";
+		}
+
+}

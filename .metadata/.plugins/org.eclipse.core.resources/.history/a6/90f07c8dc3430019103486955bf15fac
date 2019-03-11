@@ -1,0 +1,8 @@
+package com.assignment1.springdemo;
+
+public class BaseballCoach {
+	public String getDailyWorkout()
+	{
+		return "Spend thirty minutes on batting practice.";
+	}
+}
