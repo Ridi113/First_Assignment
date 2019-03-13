@@ -13,14 +13,14 @@
     <!-- Define your beans here -->
     
     <!-- define the dependency -->    
-    <bean id="myFortuneService"
-    		class="com.assignment1.springdemo.RandomFortuneService">
-    	</bean>
+    <!-- <bean id="myFortuneService" -->
+    <!--		class="com.assignment1.springdemo.RandomFortuneService"> -->
+    <!--	</bean> -->
     
     <!-- define the dependency -->
-   <!-- <bean id="myFortuneService" -->
-    <!--		class="com.assignment1.springdemo.HappyFortuneService"> -->
-    <!--	</bean> -->
+    <bean id="myFortuneService" 
+    		class="com.assignment1.springdemo.HappyFortuneService"> 
+    	</bean> 
     
  	<bean id="myCoach"
  		class="com.assignment1.springdemo.TrackCoach">	
